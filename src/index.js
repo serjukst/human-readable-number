@@ -27,16 +27,7 @@ module.exports = function toReadable (number) {
       60: 'sixty',
       70: 'seventy',
       80: 'eighty',
-      90: 'ninety',
-      100: 'one hundred',
-      200: 'two hundred',
-      300: 'three hundred',
-      400: 'four hundred',
-      500: 'five hundred',
-      600: 'six hundred',
-      700: 'seven hundred',
-      800: 'eight hundred',
-      900: 'nine hundred',
+      90: 'ninety'
     }
   
     let str = String(number), dozens;
